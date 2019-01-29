@@ -94,7 +94,7 @@ function nation_include() {
 	
 	wp_register_style( 'bookingcalendar', get_stylesheet_directory_uri() . '/css/booking-calendar-pro.css' );
 	wp_register_style( 'settings', get_stylesheet_directory_uri() . '/css/settings.css' );
-	wp_register_style( 'style',	get_stylesheet_directory_uri() . '/style.css' );
+	// wp_register_style( 'style',	get_stylesheet_directory_uri() . '/style.css' );
 	wp_register_style( 'options', get_stylesheet_directory_uri() . '/css/options.css' );
 	
 	$gmapsKey = ot_get_option('gmaps_key');
